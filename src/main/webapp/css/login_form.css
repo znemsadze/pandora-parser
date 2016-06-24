@@ -1,0 +1,92 @@
+*{
+	color: #444;
+	font-size: 13px;
+}
+body{
+	background: #dfe8f7;
+	margin: 0;
+	padding: 0;
+	/*color: #3893CC;*/
+	font-family: Tahoma, Arial, sans-serif;
+	/*text-shadow: 0 0 1px 1px #000;*/
+}
+h1, h2, h3{
+	text-align: center;
+	color: #8499b7;
+	/*text-shadow:  1px 2px 15px #000;*/
+}
+h1{
+	font-size: 40px;
+	color: #b41f25
+}
+h2{
+	font-size: 25px;
+}
+h3{
+	font-size: 20px;
+}
+input[type=submit], input[type=button]{
+	background: none;
+	border: 1px solid transparent;
+	padding: 8px 15px 8px 15px;
+	font-weight: bold;
+	color: #666;
+	border-radius: 2px;
+}
+input[type=submit]:hover, input[type=button]:hover{
+	border: 1px solid #999;
+	background-color: #dfe8f7;
+	box-shadow: 1px 1px 1px #999;
+}
+#box{
+	border: 1px solid #b8c3d3;
+	border-radius: 4px;
+	background-color: #d0ddf0;
+	width: 560px;
+	padding: 10px;
+	margin: auto;
+	box-shadow: 2px 2px 5px #666;
+}
+input[type=text], input[type=password]{
+	border: 1px solid #a4aab5;
+	padding: 5px;
+	color: #888;
+	width: 170px;
+	font-weight: bold;
+}
+#msg{
+	margin: auto;
+	width: 400px;
+	border: 1px solid #444;
+	padding: 10px;
+	border-radius: 4px;
+	font-weight: bold;
+	box-shadow: 0 0 8px #999;
+	background: #e33;
+	color: #f2ff91;
+	text-align: center;
+}
+#footer{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100px;
+	margin: auto;
+	bottom: 5px;
+	text-align: center;
+	color: #777;
+}
+.warning{
+	width: 800px; 
+	text-align: center; 
+	margin: auto; 
+	color:#f00; 
+	font-weight: bold; 
+	font-size: 15px;
+}
+.vendor{
+	width:800px; 
+	text-align: center; 
+	margin: auto; 
+	font-weight: bold;
+}

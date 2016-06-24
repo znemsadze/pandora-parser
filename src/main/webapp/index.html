@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/angular.js"></script>
+    <script src="js/controllers.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+</head>
+<body>
+
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+
+    <table align="center">
+        <tr>
+            <td align="center" width="250"><h1>Speed:{{column1}}</h1></td>
+            <td align="center" width="250"><h1>Angle:{{column2}}</h1></td>
+        </tr>
+        <tr>
+            <td align="center" width="250"><h1>Average Speed: {{speedanglesavg.speed}}</h1></td>
+            <td align="center" width="250"><h1>average Angle: {{speedanglesavg.angle}}</h1></td>
+        </tr>
+
+              <tr  >
+
+             <tr  ><td colspan="2" align="center"><h1>{{checkpoints}}</h1></td></tr>
+
+             <tr  ><td colspan="2" align="center"><h1>{{state}}</h1></td></tr>
+        </tr>
+
+    </table>
+    <table align="center">
+    <tr>
+        <td  >
+            <button class="button-green" ng-click="start()">start</button>
+        </td>
+        <td>
+            <button class="button-red" ng-click="stop()">stop</button>
+        </td>
+
+    </tr>
+    </table>
+     <table>
+
+         <dl align="center">
+        <dt ng-repeat ="i in speedangles"> <div>Speed:{{i.angle}}, angle:  {{i.speed}}</div>  </dt>
+        <!--<dd ng-repeat-end>{{i.speed}}</dd>-->
+             </dl>
+    </table>
+
+</div>
+
+
+
+</body>
+</html>
